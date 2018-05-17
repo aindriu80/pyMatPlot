@@ -120,7 +120,7 @@ plt.xlabel("Subjects")
 plt.title("Test Scores by Country")
 
 plt.xticks(index + .3 / 2, ("Mathematics", "Reading", "Science"))
-plt.legend()
+plt.legend(edgecolor=None, shadow=None, bbox_to_anchor=(1,1), loc=2)
 plt.grid(True)
 
 for item in k1:
